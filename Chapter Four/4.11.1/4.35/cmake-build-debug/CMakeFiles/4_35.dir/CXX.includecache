@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/necromaner/Downloads/新建文件夹/012.git/c++ primer/Chapter Four/4.11.1/4.35/main.cpp
+iostream
+-
+
