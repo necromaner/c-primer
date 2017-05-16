@@ -6,10 +6,11 @@
 using std::cin;
 using std::cout;
 using std::endl;
+using std::string;
 int main() {
     unsigned int aa = 0, ee = 0, ii = 0, oo = 0, uu = 0;
     cout << "enter :";
-    char i;
+    /*char i;               //初版
     while (cin >> i) {
         switch (i) {
             case 'a':
@@ -33,7 +34,35 @@ int main() {
                 ++uu;
                 break;
         }
+    }*/
+
+    string i;           //2.1版
+    getline(cin,i);
+    for (auto j=i.begin();j!=i.end()+1;++j) {
+        switch (*j) {
+            case 'a':
+            case 'A':
+                ++aa;
+                break;
+            case 'e':
+            case 'E':
+                ++ee;
+                break;
+            case 'i':
+            case 'I':
+                ++ii;
+                break;
+            case 'o':
+            case 'O':
+                ++oo;
+                break;
+            case 'u':
+            case 'U':
+                ++uu;
+                break;
+        }
     }
+
     int sum = aa + ee + ii + oo + uu;
 
     cout << "a = " << aa << endl;

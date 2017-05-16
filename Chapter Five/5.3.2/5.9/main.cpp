@@ -8,7 +8,8 @@ using std::endl;
 int main() {
     unsigned int aa=0,ee=0,ii=0,oo=0,uu=0;
     cout<<"enter :";
-    char i;
+    /*
+    char i;             //初版
     while(cin>>i) {
         if (i == 'a')
             ++aa;
@@ -21,6 +22,30 @@ int main() {
         if (i == 'u')
             ++uu;
     }
+     */
+
+    string i;               //2.1版
+    getline(cin,i);
+    for (auto j=i.begin();j!=i.end()+1;++j) {
+        switch (*j) {
+            case 'a':
+                ++aa;
+                break;
+            case 'e':
+                ++ee;
+                break;
+            case 'i':
+                ++ii;
+                break;
+            case 'o':
+                ++oo;
+                break;
+            case 'u':
+                ++uu;
+                break;
+        }
+    }
+
     int sum=aa+ee+ii+oo+uu;
     
     cout<<"a = "<<aa<<endl;
