@@ -3,23 +3,22 @@ how now now now brown cow cow
 那么输出应该表明单词now连续出现了3次。
 */
 #include <iostream>
-#include<vector>
 using namespace std;
+
 int main() {
     string word,nextword,endword;
-    vector<string> all;
     int i=1;
+    cout<<"enter: ";
     while(cin>>word) {
-        all.push_back(word);
         int count = 1;
+        cout<<"enter: ";
         while(cin>>nextword) {
-            all.push_back(nextword);
+            cout<<"enter: ";
             if (word == nextword)
                 ++count;
             else if(i<count){
                 endword =word;
                 i=count;
-                cout<<endword<<"  "<<i<<endl;
                 break;
                 }
             else
@@ -27,8 +26,8 @@ int main() {
         }
     }
     if(i>1)
-        cout<<endword<<"  "<<i<<endl;
+        cout<<"most word is "<<endword<<" have "<<i<<endl;
     else
-        cout<<""<<endl;
+        cout<<"Not recur word!"<<endl;
     return 0;
 }
