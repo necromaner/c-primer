@@ -1,5 +1,0 @@
-string word
-vector<string> text;
-text.push_back(word)		//把word添加到text后面
-
-ctrl+D

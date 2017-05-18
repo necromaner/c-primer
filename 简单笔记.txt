@@ -1,0 +1,8 @@
+string word
+vector<string> text;
+text.push_back(word)		//把word添加到text后面
+
+ctrl+D
+
+if (!s.empty())			//确保s[0]位置确实有字符
+s[0]=toupper(s[0]);		//为s的第一个字符赋一个新值
