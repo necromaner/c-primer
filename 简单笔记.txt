@@ -6,3 +6,22 @@ ctrl+D
 
 if (!s.empty())			//确保s[0]位置确实有字符
 s[0]=toupper(s[0]);		//为s的第一个字符赋一个新值
+
+Continue 			//终止循环的当前一次迭代
+
+try{
+				//可能抛出异常的语句
+}catch{
+				//处理代码抛出的异常
+}
+
+switch(){
+case 1:				//整数常量,值不能相同
+break;
+default:
+break
+}
+
+do{
+				//先循环体
+}while();			//再判断条件
