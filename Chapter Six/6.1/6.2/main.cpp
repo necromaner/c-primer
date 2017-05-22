@@ -13,13 +13,15 @@
 */
 
 #include <iostream>
+#include<string>
 
-string f()//a.
+int f()//a.
 {
-    string s;
+    int s;
     //…
     return s;
 }
+
 int f2(int i){/*…*/}//c.缺int
 
 int calc(int v1, int v2) {/*…*/}//b.不能有两个相同的行参名

@@ -25,3 +25,5 @@ break
 do{
 				//先循环体
 }while();			//再判断条件
+
+static size_t cc = bb;			//局部静态变量
