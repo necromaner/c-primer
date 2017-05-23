@@ -11,7 +11,7 @@
 #include <iostream>
 using namespace std;
 
-int face(int bb) {                  //bb为形参
+int fact(int bb) {                  //bb为形参
     end:
     static size_t cc = bb;                 //cc为静态局部变量
     if (bb > 0) {
@@ -38,6 +38,6 @@ int main() {
     int aa;                     //aa为普通局部变量
     cout << "Enter:";
     cin >> aa;
-    face(aa);
+    fact(aa);
     return 0;
 }

@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int face() {            //求阶乘
+int fact() {            //求阶乘
     int aa;
     cout<<"Enter:";
     cin>>aa;
@@ -27,9 +27,9 @@ int face() {            //求阶乘
         } else
             return -1;
     }
-
+    cout<<aa<<"! = "<<cc<<endl;
 }
 int main() {
-    face();
+    fact();
     return 0;
 }

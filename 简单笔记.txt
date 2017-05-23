@@ -27,3 +27,5 @@ do{
 }while();			//再判断条件
 
 static size_t cc = bb;			//局部静态变量
+
+string::size_type			//用以保存任意string对象或vector对象的长度
