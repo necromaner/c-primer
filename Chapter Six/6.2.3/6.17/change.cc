@@ -1,7 +1,8 @@
 #include "Chapter6.h"
 
-void change(string &word){
+string change(string &word){
     for(auto &c:word){
-        c=tolower(word);
+        c=tolower(c);
     }
+    return word;
 }

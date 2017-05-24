@@ -32,5 +32,7 @@ string::size_type			//用以保存任意string对象或vector对象的长度
 
 .empty():字符串是空的话返回是true
 
-tolower(j)			//把字符转化为小写
+c = tolower(c)			//把字符转化为小写
 isupper(j)			//判断大小写
+
+cout << boolalpha << inspect(word) << endl;		//boolalpha把bool值显示为true或false
