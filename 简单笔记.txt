@@ -36,3 +36,5 @@ c = tolower(c)			//把字符转化为小写
 isupper(j)			//判断大小写
 
 cout << boolalpha << inspect(word) << endl;		//boolalpha把bool值显示为true或false
+
+int *&				//一个整数型指针的别名
