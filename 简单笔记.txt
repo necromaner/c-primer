@@ -38,3 +38,9 @@ isupper(j)			//判断大小写
 cout << boolalpha << inspect(word) << endl;		//boolalpha把bool值显示为true或false
 
 int *&				//一个整数型指针的别名
+
+int factorisl(int vol){		//递归：函数调用了它自身
+	if(vsl>1)
+		return factorial(val-1)*val;
+	return 1;
+}
