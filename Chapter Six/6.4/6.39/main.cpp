@@ -13,14 +13,13 @@
 #include <iostream>
 
 int main() {
-    int calc(int,int);
-    int calc(const int, const int);
+    int calc(int, int);
+    int calc(const int, const int);//定义一个整型函数calc，有两个const int型形参。非法：重复声明
 
     int get();
-    double get();
+    double get();//定义一个double型函数。非法：无法判断调用哪个函数
 
     int *reset(int *);
-    double *reset(double *);
-    
+    double *reset(double *);//定义一个double*类型指针函数，行参为double*
     return 0;
 }
