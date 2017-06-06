@@ -44,3 +44,7 @@ int factorisl(int vol){		//递归：函数调用了它自身
 		return factorial(val-1)*val;
 	return 1;
 }
+
+默认实参				//一但某个行参被赋予了默认值，它后面的所有行参都必须有默认值。
+
+
