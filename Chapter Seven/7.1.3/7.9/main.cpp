@@ -1,3 +1,5 @@
+//7.9：对于7.1.2节（第233页）练习中的代码，添加读取和打印Person对象的操作。
+
 #include <iostream>
 #include <string>
 
